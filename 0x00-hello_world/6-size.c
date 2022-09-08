@@ -9,10 +9,12 @@ int main(void)
 	int p;
 	float t;
 	char h;
-	double j;
+	long int j;
+	long long int n;
 	printf("size of :%zu bytes\n",sizeof(p));
 	printf("size of float :%zu bytes \n",sizeof(t));
 	printf("size of char :%zu bytes \n",sizeof(h));
+	printf("size of long int :%zuu bytess \n", sizeof(n));
 	printf("size ofdouble :%zu bytes \n",sizeof(j));
 	return (0);
 }
