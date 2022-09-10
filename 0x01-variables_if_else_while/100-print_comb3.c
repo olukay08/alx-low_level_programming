@@ -9,19 +9,22 @@ int main(void)
 
 	int y;
 
-	for (p = 0; p < 9 ; p++)
+			for (p = 0; p < 9 ; p++)
 	{
 			for (y = 1; y < 10 ; y++)
-			{
-				if (y != p && y > p)
+	{
+			if (y != p && y > p)
 				{
 			putchar(p + '0');
 			putchar(y + '0');
+			if (p < 8)
+			{
 			putchar(',');
 			putchar(' ');
+			}
 				}
-		}
 
+		}
 	}
 	return (0);
 }
