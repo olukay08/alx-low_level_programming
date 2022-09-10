@@ -10,11 +10,11 @@ int main(void)
 	for (g = 0 ; g < 10 ; g++)
 	{
 		putchar(g + '0');
-	 if (g <= 8)
-		{		 
+	if (g <= 8)
+	{
 		putchar(',');
 		putchar(' ');
-		}
+	}
 	}
 	putchar('\n');
 	return (0);
