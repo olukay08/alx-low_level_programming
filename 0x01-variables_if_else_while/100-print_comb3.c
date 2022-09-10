@@ -9,10 +9,12 @@ int main(void)
 
 	int y;
 
-	for (p = 0; p < 10 ; p++)
+	for (p = 0; p < 9 ; p++)
 	{
-			for (y = 1; y < 10 ; y++){
-				if (y != p){
+			for (y = 1; y < 10 ; y++)
+			{
+				if (y != p && y > p)
+				{
 			putchar(p + '0');
 			putchar(y + '0');
 			putchar(',');
