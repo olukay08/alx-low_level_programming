@@ -1,8 +1,15 @@
 #include "main.h"
-#include "_putchar.c" 
-
-int lopa(void)
+#include "_putchar.c"
+int main(void)
 {
-	return (write(2, "lopashgfsubsygd", 10));
+	_putchar('_');
+	_putchar('p');	
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
