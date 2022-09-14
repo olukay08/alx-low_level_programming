@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_to_98 - print  numbers until is last number is 98;
@@ -7,22 +8,20 @@ void print_to_98(int n)
 {
 	while (n < 99 )
 	{
-		_putchar(n + '0');
+		printf("%d", n);
 		if (n != 98)
 		{
-			_putchar(',');
-			_putchar(' ');
+			printf(", ");
 		}
 		n++;
 
 	}
 	while (n >= 98)
 	{
-		_putchar(n + '0');
+		printf("%d", n);
 		if (n != 98)
 		{
-		_putchar(',');
-		_putchar(' ');
+		printf(", ");
 		}
 		n--;
 	}
