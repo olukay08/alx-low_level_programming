@@ -15,7 +15,7 @@ void jack_bauer(void)
 
 	while (h < 24)
 	{
-		while (m < 59)
+		while (m < 60)
 		{
 			hm = h % 10;
 			mr =m %10;
