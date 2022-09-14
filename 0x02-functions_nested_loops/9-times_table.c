@@ -16,12 +16,15 @@ void times_table(void)
 			{
 			_putchar(pr / 10 + '0');
 			_putchar(pr % 10 + '0');
+			 if (k < 9 );
+			 {
 			_putchar(',');
 			_putchar(' ');
+			 }
 			}
-			else 
-			{	
-				_putchar(' ');
+			
+			{
+				else
 				_putchar(pr % 10 + '0');
 				_putchar(',');
 				_putchar(' ');
