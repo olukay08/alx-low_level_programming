@@ -1,7 +1,4 @@
-#ifndef  MAIN_H
-#define MAIN_H
-/*main -Entry point
- *  Return: Always o (success)
- *
- */
-int _putchar(char c);
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
+
+int _putchar(char c;
