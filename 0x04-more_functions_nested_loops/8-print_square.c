@@ -10,7 +10,7 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		for (k < 0; k < size ; k++)
+		for (k = 0; k < size ; k++)
 		{
 			for (j = 0 ; j < size ; j++)
 			{
