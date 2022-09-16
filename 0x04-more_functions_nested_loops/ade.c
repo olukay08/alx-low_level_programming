@@ -3,7 +3,7 @@
  * ade - function to print numbers from 10 to 14;
  * Return:0
  */
-int ade(void)
+void ade(void)
 {
 	int b;
 
@@ -13,7 +13,5 @@ int ade(void)
 		_putchar(b % 10 + '0');
 
 	}
-
-	return (0);
 
 }
