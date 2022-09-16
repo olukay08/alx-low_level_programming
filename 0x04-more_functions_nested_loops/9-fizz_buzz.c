@@ -19,6 +19,7 @@ int main(void)
 		}
 		else if(g % 5 == 0);
 		{
+
 		
 			printf("Buzz ");
 		}
