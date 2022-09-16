@@ -17,7 +17,7 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if(g % 5 == 0);
+		else if(g % 5 == 0)
 		{
 
 		
