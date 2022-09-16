@@ -9,8 +9,8 @@ void ade(void)
 
 	for (b = 10; b < 15 ; b++)
 	{
-		_putchar(b / 10 + '0');
-		_putchar(b % 10 + '0');
+		return (b / 10 + '0');
+		return (b % 10 + '0');
 
 	}
 
