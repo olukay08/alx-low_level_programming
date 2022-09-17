@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * prime_factor - to print largets prime factor of a 575767565
+ *main - to print largets prime factor of a 575767565
  * @n:parameter
  * Return: 0
  */
-int prime_factor(int n)
+int main(void)
 {
 	int i, m = -1;
 
-	n = 612852475143;
+	long n = 612852475143;
 
 	while (n % 2 == 0)
 	{
