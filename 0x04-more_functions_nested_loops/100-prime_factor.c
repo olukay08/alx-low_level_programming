@@ -25,6 +25,6 @@ int main(void)
 	}
 
 	}
-	printf("%1d\n", n);
+	printf("%ld\n", n);
 	return (0);
 }
