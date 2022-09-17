@@ -28,4 +28,5 @@ int prime_factor(int n)
 	}
 	return (m);
 	printf("\n");
+	return (0);
 }
