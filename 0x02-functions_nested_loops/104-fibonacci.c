@@ -6,8 +6,8 @@
 int main(void)
 {
 	int n = 98;
-	unsigned long int a = 0;
-	unsigned long int b = 1;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
 	unsigned long int r;
 	int i;
 
