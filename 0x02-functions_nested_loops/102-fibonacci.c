@@ -2,7 +2,7 @@
 /**
  * main- print fibonacci numbers
  * Return:0
- * */
+ */
 int main(void)
 {
 	unsigned long int a = 1;
@@ -24,6 +24,6 @@ int main(void)
 		a = b;
 		b = r;
 	}
-	printf("\n");	
+	printf("\n");
 	return (0);
 }
