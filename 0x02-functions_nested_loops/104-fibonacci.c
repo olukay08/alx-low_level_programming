@@ -16,11 +16,11 @@ int main(void)
 		if (i < 98)
 		{
 
-		printf("%lu, ", a);
+		printf("%zu, ", a);
 		}
 		else
 		{
-			printf("%lu", a);
+			printf("%zu", a);
 		}
 		r = a + b;
 		a = b;
