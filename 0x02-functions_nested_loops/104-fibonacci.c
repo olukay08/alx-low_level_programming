@@ -6,9 +6,9 @@
 int main(void)
 {
 	int n = 98;
-	long int a = 0;
-	long int b = 1;
-	long int r;
+	unsigned long int a = 0;
+	unsigned long int b = 1;
+	unsigned long int r;
 	int i;
 
 	for (i = 1; i <= n; i++)
@@ -16,11 +16,11 @@ int main(void)
 		if (i < 98)
 		{
 
-		printf("%ld, ", a);
+		printf("%lu, ", a);
 		}
 		else
 		{
-			printf("%ld", a);
+			printf("%lu", a);
 		}
 		r = a + b;
 		a = b;
