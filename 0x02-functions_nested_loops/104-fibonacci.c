@@ -6,21 +6,21 @@
 int main(void)
 {
 	int n = 98;
-	unsigned long int a = 1;
-	unsigned long int b = 2;
-	unsigned long int r;
+	unsigned long a = 1;
+	unsigned long b = 2;
+	unsigned long r;
 	int i;
 
-	for (i = 1; i <= n; i++)
+	for (i = 0; i <= n; i++)
 	{
 		if (i < 98)
 		{
 
-		printf("%zu, ", a);
+		printf("%lu, ", a);
 		}
 		else
 		{
-			printf("%zu", a);
+			printf("%lu", a);
 		}
 		r = a + b;
 		a = b;
