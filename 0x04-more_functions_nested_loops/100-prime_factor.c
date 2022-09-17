@@ -9,6 +9,8 @@ int prime_factor(int n)
 {
 	int i, m = -1;
 
+	n = 612852475143;
+
 	while (n % 2 == 0)
 	{
 		m = 2;
