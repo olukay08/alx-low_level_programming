@@ -1,30 +1,31 @@
 #include <stdio.h>
 #include <math.h>
 /**
- *main - to print largets prime factor of a 575767565
+ * main - print largest prime nuber
  * Return: 0
  */
 int main(void)
 {
-	int i, m = -1;
-
 	long n = 612852475143;
+	int i;
 
-	while (n % 2 == 0)
+	while (i++ < n / 2)
 	{
-		m = 2;
-		n = n / 2;
-	}
-	for (i = 3; i <= sqrt(n); i = i + 2)
-	{
-		while (n % i == 0)
+		if (n % i == 0)
 		{
-			m = i;
+			n = n / 2;
+			continue;
+		}
+	for (i = 3; i < n / 2; i += 2)
+	{
+		if (n % i == 0)
+		{
 			n = n / i;
 		}
 	}
-	
-	return (m);
+
+	}
+	return (n);
 	printf("\n");
 	return (0);
 }
