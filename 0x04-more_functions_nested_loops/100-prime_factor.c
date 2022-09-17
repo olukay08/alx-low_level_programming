@@ -2,7 +2,6 @@
 #include <math.h>
 /**
  *main - to print largets prime factor of a 575767565
- * @n:parameter
  * Return: 0
  */
 int main(void)
@@ -24,10 +23,7 @@ int main(void)
 			n = n / i;
 		}
 	}
-	if (n > 2)
-	{
-		m = n;
-	}
+	
 	return (m);
 	printf("\n");
 	return (0);
