@@ -8,6 +8,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	Return (strcpy(dest,src));
+	char p[] = strcpy(dest,src);
+	return (p);
 }
 
