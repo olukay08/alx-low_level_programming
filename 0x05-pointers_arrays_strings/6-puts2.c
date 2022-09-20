@@ -14,10 +14,10 @@ void puts2(char *str)
 		if (l % 2 == 0)
 		{
 		putchar(*(str + l));
-		
-		}
 		l++;
-		
+		}
+
+
 	}
 	putchar(10);
 }
