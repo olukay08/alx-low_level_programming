@@ -23,7 +23,7 @@ void puts_half(char *str)
 			}
 			else
 			{
-				printf("%c", str[(i - 1) / 2]);
+				printf("%c", str[(g - 1) / 2]);
 			}
 		}
 
