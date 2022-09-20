@@ -13,7 +13,7 @@ void puts2(char *str)
 	{
 		if (l % 2 == 0)
 		{
-			puctchar(*(str + l);
+		putchar(*(str + l);
 		
 		}
 		i++;
