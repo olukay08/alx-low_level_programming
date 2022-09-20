@@ -4,6 +4,7 @@
 /**
  * print_rev - it prints the reverse of a string varianle
  * Return:0
+ * @s:parameter
  */
 void print_rev(char *s)
 {
