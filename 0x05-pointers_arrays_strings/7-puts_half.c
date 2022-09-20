@@ -23,7 +23,7 @@ void puts_half(char *str)
 			}
 			else
 			{
-			 printf("%c", str[i-1]);
+			 printf("%c", str[i-2]);
 			}
 		}
 
