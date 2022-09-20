@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * puts_half - print half of the chrs of a string
- * @string: prameter
+ * @str: prameter
  * Return:nothing
  */
 void puts_half(char *str)
@@ -19,11 +19,11 @@ void puts_half(char *str)
 			if (g % 2 == 0)
 			{
 
-			printf("%c", str[i]);
+			printf("%s", str[i]);
 			}
 			else
 			{
-				printf("%c", str[(g - 1)/2]);
+				printf("%s", str[(g - 1) / 2]);
 			}
 		}
 
