@@ -8,13 +8,14 @@
  */
 void rev_string(char *s)
 {
-	int y = strlen(s);
-	
+	return (strsep(s));
+	/**
 	while (y >= 0)
 	{
 		printf("%c", s[y]);
 		y--;
 
 	}
-	printf("\n");
+	*/
+	
 }
