@@ -11,12 +11,13 @@ char *cap_string(char *g)
 {
 	int k = strlen(g);
 	int i = 0;
+	int y = 14;
 	char a[] = " \t\n,;.!?\"(){}";
 	int r;
 
 	while (i < k)
 	{
-		for (r = 0 ; r <= strlen(a); r++)
+		for (r = 0 ; r < y ; r++)
 		{
 			if (i == 0 || g[i - 1] == a[r])
 			{
