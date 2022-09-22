@@ -3,42 +3,25 @@
 #include "main.h"
 /**
  * *leet -function t encode a string
- * @g:parameter
+ * @s:parameter
  * Return:chrs
  */
-char *leet(char *g)
+char *leet(char *s)
 {
-	int k = 0;
-	int u = strlen(g);
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	while (k < u)
+	for (i = 0; *(s + i); i++)
 	{
-		if (g[k] == 'a' || g[k] == 'A')
+		for (j = 0; j <= 9; j++)
 		{
-			g[k] = 52;
+			if (a[j] == *(s + i))
+			{
+				*(s + i) = b[j];
+			}
 		}
-		else if (g[k] == 'e' || g[k] == 'E')
-		{
-			g[k] = 51;
-		}
-		else if (g[k] == 'o' || g[k] == 'O')
-		{
-			g[k] = 48;
-		}
-		else if (g[k] == 't' || g[k] == 'T')
-		{
-			g[k] = 55;
-		}
-		else if (g[k] == 'l' || g[k] == 'L')
-		{
-			g[k] = 49;
-		}
-		else
-		{
-			g[k] = g[k];
-		}
-		k++;
 	}
-	return (g);
+	return (s);
 }
 
