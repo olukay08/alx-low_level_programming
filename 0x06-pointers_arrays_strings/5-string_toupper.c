@@ -15,6 +15,7 @@ char *string_toupper(char *g)
 		putchar(toupper(g[i]));
 		i++;
 	}
+	return (g);
 }
 
 
