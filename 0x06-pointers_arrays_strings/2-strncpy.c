@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * *_strncpy - - copy from sring source to a specific dest 
+ * *_strncpy - - copy from sring source to a specific dest
  * @dest:parameter 1
  * @src:parameter 2
  * @n:integer
