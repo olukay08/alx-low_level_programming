@@ -10,5 +10,4 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	return (strnspn(s, accept));
-	return (0);
 }
