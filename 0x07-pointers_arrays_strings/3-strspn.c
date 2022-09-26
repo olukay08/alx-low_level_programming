@@ -9,5 +9,5 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	return (strnspn(s, accept));
+	return (strspn(s, accept));
 }
