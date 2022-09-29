@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * int is_palindrome - print the same strints in two ways
- * @S:para 1
+ * is_palindrome - print the same strints in two ways
+ * @s:para 1
  * Return: 1 and 0
  */
 int is_palindrome(char *s)
@@ -15,20 +15,20 @@ int is_palindrome(char *s)
 /**
  * check - checks if a string is palidrome
  * @s:para 1
- * @start index
+ * @start: index
  * @end: end index
  * @flag :flag to indicate ia string is a palidrone
  * Return:void
  */
 void check(char *s, int start, int end, int *flag)
 {
-	if (start <= end )
+	if (start <= end)
 	{
 		if (s[start] == s[end])
-			*flag *=1;
+			*flag *= 1;
 		else
-			*flag *=0;
-		check(s, start + 1, end -1, flag);
+			*flag *= 0;
+		check(s, start + 1, end - 1, flag);
 	}
 }
 /**
