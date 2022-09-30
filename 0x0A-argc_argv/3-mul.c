@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	long int r;
 	long int k, l;
 
-	if (argc > 1)
+	if (argc > 1 && argc < 4)
 	{
 		k = atoi(argv[1]);
 		l = atoi(argv[2]);
