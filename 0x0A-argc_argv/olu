@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "Using argc and argv in c"
+git push
