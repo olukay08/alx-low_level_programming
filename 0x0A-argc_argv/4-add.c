@@ -8,11 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int sum , i, num;
+	int sum, i, num;
 
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) > 0 && argc > 1 )
+		if (atoi(argv[i]) >= 0)
 		{
 			num += atoi(argv[i]);
 		}
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		}
 		sum = num;
 		printf("%d\n", sum);
-	
+
 	}
 	if (argc == 1)
 	{
