@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		k = atoi(argv[1]);
 		l = atoi(argv[2]);
 		r = k * l;
-		printf("%li\n", r);
+		printf("%ld\n", r);
 	}
 	if (argc == 1)
 	{
