@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		r = k * l;
 		printf("%ld\n", r);
 	}
-	else
+	if (argc != 3)
 	{
 		puts("Error");
 		return (1);
