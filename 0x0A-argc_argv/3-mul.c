@@ -8,8 +8,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int r;
-	int k, l;
+	long int r;
+	long int k, l;
 
 	if (argc > 1)
 	{
