@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) >= 0)
+		if (atoi(argv[i]) > 0)
 		{
 			num += atoi(argv[i]);
 		}
@@ -22,13 +22,12 @@ int main(int argc, char *argv[])
 			return (1);
 		}
 		sum = num;
-		printf("%d\n", sum);
-
 	}
 	if (argc == 1)
 	{
-		printf("0\n");
+		sum = 0;
 	}
+	printf("%d\n", sum);
 	return (0);
 }
 
