@@ -16,7 +16,7 @@ int count(char *str)
 		if (str[i] != ' ' && (str[i + 1] == '\0' || str[i + 1] == ' '))
 			words++;
 		i++;
-	}i
+	}
 	return (words);
 }
 /**
