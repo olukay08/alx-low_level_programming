@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 			s1++;
 		}
 		*s1 = '\n';
-		s1++
+		s1++;
 	}
 	return (s2);
 }
