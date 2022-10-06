@@ -8,22 +8,24 @@
  */
 int *array_range(int min, int max)
 {
-	int i, diff;
+	int i, diff, n;
 	int *array;
 
 	if (min > max)
 	{
 		return (NULL);
 	}
-	diff = max - min;
-	array = malloc(sizeof(int) * diff + 1);
+	diff = max - min + 1;
+	array = malloc(sizeof(int) * diff);
 	if (array == NULL)
 	{
 		return (NULL);
 	}
-	for (i = min; i <= max; i++)
+	n = min;
+	for (i = 0; i < diff; i++)
 	{
-		array[i - min] = i;
+		array[i] = n;
+		n++;
 	}
 	return (array);
 }
