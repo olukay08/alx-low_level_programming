@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #ifndef DOG_H
 #define DOG_H
 /**
@@ -8,7 +7,7 @@
  * @owner:Third menmber
  * Description:Same as above
  */
- struct dog
+struct dog
 {
 	char *name;
 	float age;

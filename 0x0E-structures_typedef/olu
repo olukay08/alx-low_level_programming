@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "structure and typedef task"
+git push
