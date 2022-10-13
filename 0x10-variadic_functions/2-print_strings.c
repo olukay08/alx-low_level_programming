@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
+#include <stdlib.h>
 #include "variadic_functions.h"
 /**
  * print_strings - prints strings
@@ -25,7 +26,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			mystring = va_arg(ap, char *);
 			if (mystring == NULL)
 			{
-				mystring = "nil";
+				printf("(nil)");
 			}
 			printf("%s%s", mystring, separator);
 		}
@@ -33,7 +34,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			mystring = va_arg(ap, char *);
 			if (mystring == NULL)
-				mystring = "nil";
+				printf("nil");
 			printf("%s", mystring);
 		}
 	}
